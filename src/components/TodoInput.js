@@ -29,7 +29,6 @@ export function TodoInput() {
     }
   }
 
-
   return (
     <>
       <Form onSubmit={handleSubmit} className='form'>
@@ -38,7 +37,6 @@ export function TodoInput() {
           <Form.Control type="text" value={inputValue} maxLength='55' onChange={handleChange} placeholder='Введите задачу' />
           <Button variant="info" type='submit' >Сохранить</Button>
         </Container>
-
       </Form>
     </>
   )
